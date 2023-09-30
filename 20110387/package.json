@@ -1,0 +1,23 @@
+{
+  "name": "20110387",
+  "version": "1.0.0",
+  "description": "Xây dựng blog đơn giản sử dụng ExpressJS với HBS template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nthanhnguyen/20110387-week05.git"
+  },
+  "author": "Nguyen Thanh Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nthanhnguyen/20110387-week05/issues"
+  },
+  "homepage": "https://github.com/nthanhnguyen/20110387-week05#readme",
+  "dependencies": {
+    "express": "4.18.2",
+    "express-handlebars": "^7.1.2"
+  }
+}

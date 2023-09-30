@@ -1,0 +1,15 @@
+{{#if posts.length}}
+<ul>
+    {{#each posts}}
+    <li>
+        <h2><a href="/blog/post/{{id}}">{{title}}</a></h2>
+        <p>{{content}}</p>
+        <form action="/blog/delete/{{id}}" method="POST">
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+    {{/each}}
+</ul>
+{{else}}
+<p>No posts yet.</p>
+{{/if}}
